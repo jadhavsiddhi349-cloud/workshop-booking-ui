@@ -2,8 +2,7 @@
   display: grid;
   gap: 30px;         
   padding: 30px;
-   
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
 /* .card {
@@ -98,4 +97,53 @@
 
 .book-btn:hover {
   background-color: #0a213a;
+}
+@media (max-width: 768px) {
+
+  .card-container {
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+
+  .card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .card-right {
+    margin-left: 0;
+    align-self: center;
+  }
+
+  .card-right img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .card-title {
+    margin-left: 0;
+  }
+
+  .card-instructor,
+  .card-date,
+  .card-price {
+    margin-left: 0;
+  }
+
+  .book-btn {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+@media (max-width: 768px) {
+  .card {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .card-right {
+    width: 100%;
+    text-align: center;
+  }
 }
