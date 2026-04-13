@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Workshop Booking UI 
+## Project Overview 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a workshop booking UI built using React. 
+It includes components like Navbar, Workshop Cards, and Footer.
+The UI is designed to be clean, simple, and responsive. 
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
+## Features
+- Responsive Navbar
+- Workshop Cards with details
+- Clean UI design
+- Responsive layout for mobile and desktop
+   
+### npm start
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
 The page will reload when you make changes.\
-You may also see any lint errors in the console.
+You may also see any lint errors in the console. 
 
-### `npm test`
+## Reasoning
+### 1. What design principles guided your improvements? 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+While improving the UI, I focused on keeping the design simple and clean so easy to use.
+I used proper spacing and alignment to make the layout look organized.
+I also tried to keep consistency in components like navbar, cards, and buttons so everything looks uniform.
 
-### `npm run build`
+### 2. How did you ensure responsiveness across devices? 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To make the UI responsive, I used Flexbox and basic CSS techniques.
+I also used media queries to adjust the layout for smaller screens like mobile devices. 
+I tested the design using browser inspect tools and made changes wherever needed.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 3. What trade-offs did you make between the design and performance?
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+I avoided heavy animations and large images to keep the application fast.
+While more visual effects could improve appearance, I prioritized performance and smooth user experience. 
 
-### `npm run eject`
+### 4. What was the most challenging part of the task and how did you approach it?
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The most challenging part was making the layout responsive and properly aligned. 
+Initially, some elements were not fitting well on smaller screens. I fixed this by adjusting the layout using Flexbox and testing multiple screen sizes until it worked properly. 
+## Screenshots
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Main UI
+![Main UI](screenshots/homepage.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Hover Effect
+![Hover Effect](screenshots/hover-info.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Mobile View
+![Mobile View](screenshots/mobile-view.png)
 
-## Learn More
+### Footer View
+![Footer View](screenshots/Footer.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Navbar View
+![Navbar View](screenshots/Navbar.png)
